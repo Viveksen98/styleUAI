@@ -1,0 +1,105 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+    background: #fff;
+    box-shadow: 0px 0px 4px rgba(128, 129, 139, 0.2);
+    border-radius: 0.5vw;
+    margin:auto;
+    margin-top: 2vw;
+    height: 4vw;
+    padding-inline: 1vw;
+}
+
+.header-left img {
+    height: 1.8vw;
+    object-fit: contain;
+}
+
+.Menu_div {
+    display: none;
+    position: relative; /* Needed for dropdown position */
+}
+
+.Menu_img {
+    display: block;
+    width: 100%;
+    height: 3vw;
+    cursor: pointer;
+}
+
+/* Dropdown menu for mobile */
+.mobile-menu {
+    list-style: none;
+    position: absolute;
+    top: 165%;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 100;
+}
+
+.mobile-menu li {
+    padding: 8px 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: Poppins;
+    border-bottom: 1px solid #eee;
+}
+
+.mobile-menu li:last-child {
+    border-bottom: none;
+}
+.login_button
+{
+    background-color: #FF6A00;
+    padding: 8px 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: Poppins;
+    border-bottom: 1px solid #eee;
+    color: #fff;
+    border-radius:0.5vw;
+}
+.Book_Now{
+    background-color: #3913C5;
+    padding: 8px 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: Poppins;
+    border-radius:0.5vw;
+    border-bottom: 1px solid #eee;
+    color: #fff;
+    margin-top: 0.1vw;
+
+}
+
+/* Responsive layout for small screens */
+@media screen and (max-width: 468px) {
+    .header {
+        height: 15vw;
+        width: 90%;
+        border-radius: 3vw;
+        padding-inline: 2.5vw;
+    }
+
+    .header-left img {
+        height: 6.5vw;
+    }
+
+    .Menu_div {
+        display: block;
+    }
+
+    .desktop-menu,
+    .BookDemo {
+        display: none; /* Hide full nav on small screens if needed */
+    }
+}
+
+

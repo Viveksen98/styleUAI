@@ -1,0 +1,87 @@
+.contactus_mini_chckbox_container_1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.chckbox_container_1_mini{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 7vw;
+}
+
+.Checkbox_title{
+    width: 3vw;
+    color: #222;
+font-family: Poppins;
+font-size: 1vw;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.CheckBox_input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.custom-icon {
+    display: inline-block;
+    width: 1.3vw;
+    height: 1.2vw;
+    border-radius: 1.375px;
+    border: 1.692px solid black;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+/* Change border + show tick when checked */
+.CheckBox_input:checked + .custom-icon {
+    border-color: #3913C5; /* ✅ Change box color */
+}
+
+.CheckBox_input:checked + .custom-icon::after {
+    content: "✔";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 1vw;
+    font-family: sans-serif;
+    color: #3913C5 !important; /* ✅ Force tick color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Responsive styles */
+@media screen and (max-width: 468px) {
+    .contactus_mini_chckbox_container_1 {
+        width: 100%;
+    }
+    .chckbox_container_1_mini {
+        gap: 26vw;
+    }
+    .Checkbox_title {
+        font-size: 3.5vw;
+    }
+
+    .custom-icon {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .CheckBox_input:checked + .custom-icon::after {
+        font-size: 4vw;
+    }
+
+}
+
+
+

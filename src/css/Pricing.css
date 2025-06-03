@@ -1,0 +1,250 @@
+.pracing_plans_maincontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-bottom: 10vw;
+}
+
+.pricing_container_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9vw;
+    width: 100%;
+
+}
+
+.Pricing_Top_Headder {
+    color: #3913C5;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.5vw;
+    margin-top: 0.8vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+
+}
+
+.Pricing_Seco_Header {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2.5vw;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.Pricing_small_Header {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 1.2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pricing_container_2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 7.415px;
+    background: #FFF;
+    gap: 2vw;
+    margin-top: 1vw;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 1vw;
+    scroll-behavior: smooth; /* Smooth scrolling */
+    -webkit-overflow-scrolling: touch; /* iOS support */
+    
+    /* Hide scrollbar for Webkit browsers (Chrome, Safari, Opera) */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* Internet Explorer/Edge */
+}
+
+.price_plan_standard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 7.415px;
+    background: #FFF;
+    margin-top: 4vw;
+    box-shadow: 0px 0px 4px rgba(128, 129, 139, 0.2);
+
+
+}
+
+.price_plan_gold {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid #3913C5;
+    border-radius: 1vw;
+}
+
+.Mostpopular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0.5vw;
+    width: 89%;
+    margin: auto;
+    padding: 1.5vw;
+    color: #FFF;
+    background: #3913C5;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5vw;
+    border-top-left-radius: 0.8vw;
+    border-top-right-radius: 0.8vw;
+}
+
+.Toggle-button {
+    display: flex;
+    justify-content: center;
+    gap: 0.7vw;
+    align-items: center;
+    height: 2.1vw;
+    width: 12.35vw;
+    margin-left: 1.5vw;
+    padding: 0.5vw;
+    border-radius: 30px;
+    border: 1px solid #CCC;
+    background: #F7F7F7;
+    position: absolute;
+}
+
+.Monthly_true {
+    text-align: center;
+    background: #3913C5;
+    color: #F7F7F7;
+    padding: 0.5vw;
+    cursor: pointer;
+    border-radius: 2.3vw;
+    font-size: 1vw;
+    font-family: Poppins;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.Monthly_false {
+    background: #F7F7F7;
+    color: #3913C5;
+    padding: 0.5vw;
+    cursor: pointer;
+    border-radius: 2.3vw;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 468px) {
+
+
+    .pricing_container_2 {
+        justify-content: flex-start;
+        width: 95%;
+        margin-top: 2vw;
+        overflow-x: auto;
+        gap: 7vw;
+        margin-left: 2.5vw;
+
+    }
+
+    .pricing_container_1 {
+        width: 99%;
+
+    }
+
+    .price_plan_standard {
+        padding-top: 13.5vw;
+        margin-top: 7vw;
+
+    }
+
+    .pracing_plans_maincontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .Pricing_Seco_Header {
+        font-size: 7vw;
+
+        line-height: normal;
+    }
+
+    .Pricing_small_Header {
+        font-size: 2.5vw;
+        line-height: 1;
+
+    }
+
+    .Mostpopular {
+        width: 79.4%;
+        border-top-left-radius: 1.3vw;
+        border-top-right-radius: 1.3vw;
+        font-size: 3vw;
+        padding-inline: 6.4vw;
+        padding-top: 3.6vw;
+        padding-bottom: 3.6vw;
+    }
+
+    .Toggle-button {
+        position: relative;
+        margin-top: 10vw;
+        width: 30vw;
+        height: 6.5vw;
+        padding: 0.8vw;
+        font-size: 2.8vw;
+        margin-bottom: 8vw;
+        margin-left: 4vw;
+    }
+
+    .Monthly_false {
+        font-size: 2.5vw;
+        padding: 1.2vw;
+        border-radius: 3.5vw;
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+    }
+
+    .Monthly_true {
+        font-size: 2.5vw;
+        padding: 1.2vw;
+        border-radius: 3.5vw;
+        padding-top: 1.5vw;
+        padding-bottom: 1.5vw;
+    }
+
+    .Pricing_Top_Headder {
+        font-size: 4.5vw;
+    }
+
+    .price_plan_gold {
+        border-radius: 2vw;
+    }
+
+
+
+}
+

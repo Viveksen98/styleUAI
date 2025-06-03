@@ -1,0 +1,263 @@
+.pricing_pan_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1vw;
+    width: 25.6vw;
+
+}
+
+
+.pricing_header {
+    color: #222;
+    font-family: "Californian FB";
+    font-size: 2vw;
+    font-style: normal;
+    margin-top: 1vw;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pricing_description {
+    color: #222;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.951px;
+    margin-top: 0.7vw;
+    /* 155.556% */
+}
+
+.pricing_Box{
+    
+    margin-top: 0.7vw;
+}
+
+
+.pricing_text {
+    color: #222;
+    font-family: "Californian FB";
+    font-size: 2vw;
+    font-style: normal;
+   padding-right: 1vw;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.779px;
+}
+
+.pricing_duration {
+    color: #222;
+    font-family: Poppins;
+    font-size: 1.1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.387px;
+}
+
+.custom-hr{
+    width: 103.5%;
+    height: 0.01vw;
+    color: gray;
+    margin-left: -1vw;
+    margin-top: 0.7vw;
+}
+
+
+.arrow_getstart {
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    align-items: center;
+    width: 90%;
+    height: 3vw;
+    padding: 3.707px;
+    justify-content: center;
+    align-items: center;
+    gap: 12.976px;
+    flex-shrink: 0;
+    border-radius: 5.561px;
+    border: 2.41px solid #3913C5;
+    margin-bottom: 2vw;
+}
+.arrow_getstart span{
+    color: #3913C5;
+font-family: Poppins;
+font-size: 1.3vw;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.Arrow_Div{
+    margin-top: 0.2vw;
+}
+.Arrow_img{
+    width: 70%;
+}
+
+
+
+.pricing_feature {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1vw;
+    align-items: center;
+    gap: 1vw;
+    color: #000;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.371px;
+}
+
+.arrow_getstart.business-plan {
+    margin-top: 11vw;
+  }
+
+  .arrow_getstart.Standard-plan {
+    margin-top: 11vw;
+  }
+
+  .arrow_getstart.Gold-plan{
+    margin-top: 6vw;
+  }
+
+  .Right_tick{
+    width: 100%;
+    height: 1.4vw;
+  }
+
+  .pricing_duration.business-plan {
+    font-size: 1.5vw;
+    margin-left: -1vw;
+  }
+
+  .arrow_getstart{
+    cursor: pointer;
+  }
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+  }
+  
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .modal-content button {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .close-button {
+    margin-top: 1rem;
+    background-color: #ccc;
+  }
+  
+
+@media screen and (max-width: 468px) {
+    .pricing_pan_container{
+        width: 70vw;
+        margin-left: 2vw;
+        width: 59vw;
+    }
+    .pricing_header{
+        font-size: 6.5vw;
+        margin-top: 2vw;
+    }
+
+    .pricing_description{
+        font-size: 2.5vw;
+        margin-top: 2vw;
+        line-height: normal;
+    }
+    .pricing_Box{
+        margin-top: 3vw;
+    }
+    .pricing_text {
+        font-size: 4.4vw;
+    }
+
+    .pricing_duration{
+        font-size: 3.5vw;
+    }
+
+    .pricing_feature{
+        margin-top: 2vw;
+        font-size: 2.8vw;
+    }
+
+    .custom-hr{
+        width: 104.5%;
+        margin-top: 3vw;
+        margin-left: -2.9vw;
+    }
+
+    .arrow_getstart{
+        height: 6vw;
+        width: 85%;
+    }
+
+    .arrow_getstart span{
+        font-size: 3.4vw;
+    }
+
+    .Arrow_Div{
+        margin-top: 1vw;
+    }
+
+    .arrow_getstart.business-plan {
+        margin-top: 25vw;
+      }
+
+      .arrow_getstart.Standard-plan {
+        margin-top: 25vw;
+      }
+      .arrow_getstart.Gold-plan{
+        margin-top:24vw;
+      }
+
+      .Right_tick{
+        width: 100%;
+        height: 3.2vw;
+      }
+
+      .Arrow_img{
+        width: 60%;
+    }
+    .pricing_duration.business-plan {
+        font-size: 4vw;
+      }
+
+
+}
+

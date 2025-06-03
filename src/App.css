@@ -1,0 +1,19 @@
+/* Make the entire page take full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Your app container (wrap everything except footer) */
+.app-container {
+  min-height: 100vh;       /* full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content should expand to fill available space */
+.main-content {
+  flex: 1;                 /* take all available space */
+}
+

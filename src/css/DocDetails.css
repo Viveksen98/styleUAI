@@ -1,0 +1,120 @@
+.GaideHeader{
+    color: #000;
+    font-family: Poppins;
+    font-size: 2.6vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.Guidediscription{
+    color: #3913C5;
+    font-family: Poppins;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px;
+}
+
+h3{
+    font-family: Poppins;
+
+}
+span {
+    font-family: Poppins;
+}
+.usecase_Main_conatiner{
+    display: flex;
+    margin-top: 1vw;
+    gap: 2vw;
+    padding: 2vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    
+}
+
+.usecasediscription{
+    line-height: 2.5vw;
+}
+
+.usecase_div{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 50%;
+}
+.usecase_img_div{
+    height: 20vw;
+    width: 30vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.StepbyStep_main_container{
+    display:flex ;
+    margin-top: 2vw;
+    
+
+}
+
+.StepbyStep{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1vw;
+    font-family: Poppins;
+}
+
+.StepbyStep_smallbox{
+    display: flex;
+    flex-direction: row;
+    padding: 2vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    gap: 1vw;
+}
+.StepbyStep_smallbox1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.step_container-1{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 2vw;
+    padding: 2vw;
+    
+}
+
+.step_small_header{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+
+.Step_images_div{
+    height: 20vw;
+    width: 30vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.Pro_tips_container{
+    display: flex;
+    margin-top: 1vw;
+    gap: 2vw;
+    padding: 2vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.proTips_point{
+    display: flex;
+    margin-top: 1vw;
+    gap: 2vw;
+    
+}
+.InnerboxProtip{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 1.5vw;
+    font-family: Poppins;
+
+}

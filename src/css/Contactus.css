@@ -1,0 +1,80 @@
+.contactus_container {
+    display: flex;
+    flex-direction: row;
+    background: #FFF;
+    
+}
+
+.contactus_container_1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10vw;
+    gap: 2vw; padding-left: 6vw;
+   
+    
+}
+
+.contactus_container_2 {
+    background-color: #FFF;
+    width: 50%;
+
+    
+}
+
+.Contactus_small_Header {
+    color: #3913C5;
+    font-family: Poppins;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.22px;
+}
+
+.Contactus_Main_Header {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2.6vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width: 468px) {
+    .contactus_container {
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 4vw;
+        gap: 5vw;
+        padding-left: 5vw;
+    }
+
+    .contactus_container_1 {
+        width: 95%;
+        padding-right: 0;
+        margin-top: 0;
+        padding-left: 0;
+        padding: 2vw;
+    }
+
+    .contactus_container_2 {
+        width: 100%;
+    }
+
+    .Contactus_Main_Header {
+        font-size: 7vw;
+    }
+
+    .Contactus_small_Header{
+        font-size: 4.5vw;
+    }
+
+    .contactus_container_1_mini{
+        margin-top: 5vw;
+    }
+}
+

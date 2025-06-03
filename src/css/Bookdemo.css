@@ -1,0 +1,21 @@
+.book-demo {
+    display: flex;
+    width: 7vw;
+    padding: 0.7vw;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 73.078px;
+    background-color: #3913C5;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+}
+@media screen and (max-width: 468px) {
+    .book-demo{
+        display: none;
+    }
+}
